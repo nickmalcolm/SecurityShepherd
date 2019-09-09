@@ -2,5 +2,8 @@
   "name": "OWASP Security Shepherd",
   "description": "A web application security training platform",
   "repository": "https://github.com/nickmalcolm/SecurityShepherd",
-  "keywords": ["owasp", "security", "vulnerable"]
+  "keywords": ["owasp", "security", "vulnerable"],
+  "scripts": {
+    "postdeploy" : "docker-compose up"
+  }
 }
